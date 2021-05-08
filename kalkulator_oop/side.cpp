@@ -21,7 +21,7 @@ void Calculator::dzielenie()
 std::cout<<"Podaj pierwsza liczbe: "; std::cin>>a;
 std::cout<<"Podaj druga liczbe: "; std::cin>>b;
 
-if (a &&b ==0)
+if (a && b ==0)
 {
 std::cout<<"Nie dzielimy przez 0"<<std::endl;
 exit(0);
