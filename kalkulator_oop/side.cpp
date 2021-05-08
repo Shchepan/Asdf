@@ -24,7 +24,7 @@ std::cout<<"Podaj druga liczbe: "; std::cin>>b;
 if (a && b ==0)
 {
 std::cout<<"Nie dzielimy przez 0"<<std::endl;
-exit(0);
+return 0;
       
 }
 a=a/b;
