@@ -4,7 +4,6 @@ std::string a= "#####";//12345
 std::string b= "#   #";//12345
 std::string c= "# * #";//12345
 std::string d= "#   #";//12345
-std::string e= "#####";//12345
 std::string move;
 int x=3;
 int y=3;
@@ -12,7 +11,7 @@ int gameover=0;
 
 void update()
 {
-    std::cout<<a<<std::endl<<b<<std::endl<<c<<std::endl<<d<<std::endl<<e<<std::endl;
+    std::cout<<a<<std::endl<<b<<std::endl<<c<<std::endl<<d<<std::endl<<a<<std::endl;
 }
 
 void left()
